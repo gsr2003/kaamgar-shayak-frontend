@@ -17,7 +17,7 @@ const Landing = () => {
 
         <h1 className="font-bold text-[5.27vw] leading-[105px] relative">
           <span className="absolute bg-[#EB5757] w-[6px] h-[6px] rounded-[50%] -top-3 left-72"></span>
-          Be The Fastest In Getting Mazdoor at&nbsp;
+          Be The Fastest In Getting Kaamgar at&nbsp;
           <span className="actNav !font-bold relative">
                             <span
                               className="absolute bg-[#F2C94C] w-[10px] h-[10px] rounded-[50%] top-6 -right-36"></span>
@@ -30,7 +30,7 @@ const Landing = () => {
         <div
           onClick={() => dispatch(updatePopup({ status: true, type: "login", message: "" }))}
           className="text-center primary-btn w-fit !rounded-[25px]">
-          Find Mazdoor
+          Find Kaamgar
       </div>
     </div>
     <div className="w-[50%] relative">
