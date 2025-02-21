@@ -71,7 +71,7 @@ const Signup = () => {
       onClick={() => dispatch(updatePopup({ status: false, type: popup.type, message: popup.message }))}
       className="fa fa-close absolute top-2 right-2 rounded-sm bg-[#EB5757] text-white px-2 py-1 hover:bg-[#F2C94C] hover:text-[#333333] cursor-pointer">
     </i>
-    <h1 className="text-2xl text-[#EB5757] font-bold">Join MAZDOOR</h1>
+    <h1 className="text-2xl text-[#EB5757] font-bold">Join KAAMGAR SAHAYAK</h1>
     <form
       onSubmit={(e) => handleSignup(e)}
       className="flex flex-col items-center justify-center gap-10 w-full">
@@ -99,7 +99,7 @@ const Signup = () => {
     </form>
     <div className="flex gap-10 w-full">
       <p className="text-gray-500 text-center -my-8">
-        By signing up, you acknowledge and agree to the terms and conditions of Mazdoor.
+        By signing up, you acknowledge and agree to the terms and conditions of Kaamgar Sahayak.
       </p>
     </div>
     <p>Already a Member?&nbsp;
