@@ -51,7 +51,7 @@ const Footer=()=>{
             </div>
             <div>
                 <p className="font-[600] border-t text-[16px] py-2 text-center leading-[22px]">
-                    Mazdoor, 2023 © Shahbaz Inc. All rights reserved.
+                    Kaamgar Sahayak, 2023 © Kaamgar Sahayak Inc. All rights reserved.
                 </p>
             </div>
         </footer>
