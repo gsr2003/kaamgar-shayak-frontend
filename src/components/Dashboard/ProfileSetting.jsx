@@ -69,7 +69,7 @@ export const ProfileSetting = () => {
   useEffect(() => { // load states and labor types
     dispatch(loadLaborsTypes());
     axios.post(statesURL, {
-      country: "Pakistan"
+      country: "India"
     }).then(res => {
       setStates(res.data.data.states);
     });
@@ -77,7 +77,7 @@ export const ProfileSetting = () => {
   useEffect(() => { // load cities
     if (state) {
       axios.post(citiesURL, {
-        country: "Pakistan",
+        country: "India",
         state
       }).then(res => {
         setCities(res.data.data);
@@ -571,7 +571,7 @@ export const ProfileSetting = () => {
             <AccordionDetails>
               <div className="flex flex-col items-center p-4">
                 <div className="flex justify-between items-center gap-10 mb-10">
-                  <p className="text-[#6d6e70] text-sm">Mazdoor uses secure, encrypted technology to store and handle
+                  <p className="text-[#6d6e70] text-sm">Kaamgar Sahayak uses secure, encrypted technology to store and handle
                     your payment information. Rest assured, the confidential data you enter here is safe.</p>
                   {/* div component with icon and text */}
                   <div
